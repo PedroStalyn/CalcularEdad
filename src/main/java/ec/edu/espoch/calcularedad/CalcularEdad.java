@@ -7,6 +7,7 @@ public class CalcularEdad {
         
         Scanner e=new Scanner(System.in);        
         System.out.println("Ingresa la edad:");
+        System.out.println("Ingresa el nombre:");
         int edad = e.nextInt();
         if (edad >= 0 && edad < 120) {
             //categoriza la persona
